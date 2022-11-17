@@ -14,7 +14,7 @@ HELP = '''
 '''
 DESCRIPTION = '''
 This bot is my first bot...
-He can to send a random letter of English alphabet!
+He can send a random letter of English alphabet!
 '''
 
 count = 0
