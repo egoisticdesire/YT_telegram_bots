@@ -33,7 +33,7 @@ async def desc_cmd(msg: types.Message):
 
 # Задача: показывать инлайн клавиатуру по команде
 @dp.message_handler(commands=['links'])
-async def desc_cmd(msg: types.Message):
+async def links_cmd(msg: types.Message):
     await bot.send_message(
         chat_id=msg.chat.id,
         text=DESCRIPTION,
